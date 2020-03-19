@@ -12,7 +12,7 @@ public class CompletableFutureTest {
     private static final Random RANDOM = new Random(System.currentTimeMillis());
 
     public static void main(String[] args) {
-        CompletableFuture completableFuture = new CompletableFuture();
+        CompletableFuture<Double> completableFuture = new CompletableFuture<>();
         new Thread(() -> {
             double v = get();
             completableFuture.complete(v);

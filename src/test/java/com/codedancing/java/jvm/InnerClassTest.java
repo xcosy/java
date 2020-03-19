@@ -10,16 +10,15 @@ public class InnerClassTest {
     }
 
     private static void printInfo(final int name) {
-        InterfaceTest interfaceTest = new InterfaceTest() {
-            public void print() {
-                System.out.println(name);
-            }
-        };
+        InterfaceTest interfaceTest = () -> System.out.println(name);
         interfaceTest.print();
     }
 
 }
 
+/**
+ * Functional Interface
+ */
 interface InterfaceTest {
     void print();
 }
