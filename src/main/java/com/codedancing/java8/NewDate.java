@@ -4,7 +4,7 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 
-public class date {
+public class NewDate {
 
     public static void main(String[] args) throws InterruptedException {
         /*
