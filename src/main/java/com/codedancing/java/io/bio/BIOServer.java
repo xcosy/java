@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 线程池机制
+ * 线程池机制，可以使用telnet进行连接
  */
 public class BIOServer {
 
