@@ -8,6 +8,14 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
+/**
+ * 实例：
+ * 使用Netty编写 Server Client
+ * 让Client上线连接成功Server时，Server与Client打招呼
+ *
+ * 目的：
+ * 了解Netty的线程模型
+ */
 public class NettyServer {
 
     public static void main(String[] args) throws InterruptedException {
