@@ -34,7 +34,7 @@ public class NettyServer {
             // 2. 使用NioServerSocketChannel作为服务器的通讯管道实现
             // 3. 设置线程队列得到的连接个数
             // 4. 设置保持活动连接状态
-            // 5. 创建一个管道测试对象（匿名）
+            // 5. 创建一个管道初始化对象（匿名）
             serverBootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .option(ChannelOption.SO_BACKLOG, 128)
