@@ -5,6 +5,8 @@
 .gradle/
 build/
 */build/
+/src/test/*
+*.class
 
 *.iml
 gradlew
